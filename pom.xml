@@ -181,6 +181,13 @@
             <artifactId>poi</artifactId>
             <version>3.17</version>
         </dependency>
+        <!-- rabbitMQ依赖 -->
+        <!-- spring相关的其他依赖请参考源码，此处不做过多描述 -->
+        <dependency>
+            <groupId>org.springframework.amqp</groupId>
+            <artifactId>spring-rabbit</artifactId>
+            <version>1.4.6.RELEASE</version>
+        </dependency>
     </dependencies>
 
     <build>
